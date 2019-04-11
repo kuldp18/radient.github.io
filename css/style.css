@@ -71,15 +71,23 @@ body {
 	body {
 		padding: 1.2rem;
 	}
+	.container {
+		justify-content: flex-start;
+		padding: 3rem;
+	}
 	.container #title {
-		font-size: 1.3rem;
+		font-size: 2rem;
 		margin: 0;
 	}
+	.container #small {
+		font-size: .75rem;
+	}
 	.gradient-area {
-		height: 40%;
+		height: 50%;
+		width: 100%;
 	}
 	.generate-btn {
-		font-size: 1rem;
+		font-size: 1.3rem;
 		padding: .5rem 1.5rem;
 		border-radius: 10px;
 	}
