@@ -73,7 +73,7 @@ body {
 	}
 	.container {
 		justify-content: flex-start;
-		padding: 3rem;
+		padding: 2rem;
 	}
 	.container #title {
 		font-size: 2rem;
@@ -81,10 +81,36 @@ body {
 	}
 	.container #small {
 		font-size: .75rem;
+		letter-spacing: 1px;
+		text-transform: uppercase;
 	}
 	.gradient-area {
 		height: 50%;
 		width: 100%;
+	}
+	.generate-btn {
+		font-size: 1.3rem;
+		padding: .5rem 1.5rem;
+		border-radius: 10px;
+	}
+}
+@media (max-width: 325px) {
+	body {
+		padding: .5rem;
+	}
+	.container {
+		padding: 1rem;
+	}
+	.container #title {
+		font-size: 3rem;
+	}
+	.container #small {
+		display: none;
+	}
+	.gradient-area {
+		height: 50%;
+		width: 100%;
+		display: block;
 	}
 	.generate-btn {
 		font-size: 1.3rem;
